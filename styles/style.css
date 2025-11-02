@@ -64,7 +64,7 @@ body {
 .nav-links-desktop ul li a.active::after {
   content: "";
   position: absolute;
-  bottom: -6px;
+  bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
   width: 6px;
@@ -851,7 +851,7 @@ body {
   max-width: 1170px;
   height: 459px;
   margin: 0 auto;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   background-image: url("../images/veggieBackgroun.png");
   background-size: cover;
   background-position: center;
@@ -883,7 +883,7 @@ body {
   background-color: #06C167;
   color: #fff;
   border: none;
-  border-radius: 6px;
+  /* border-radius: 6px; */
   font-size: 1.1rem;
   font-weight: 500;
   cursor: pointer;

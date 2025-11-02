@@ -798,7 +798,8 @@
 
 @media (max-width: 480px) {
   .banner-title {
-    font-size: 1.4rem;
+    font-size: 2.4rem;
+    font-weight: 500;
   }
 
   .banner-btn {
