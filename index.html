@@ -5,7 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodies</title>
+
+    <!-- Linked Inter Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Linked Style Files -->
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
 </head>
@@ -60,7 +64,7 @@
                     <h1>We're Serious<br>For Food.</h1>
                     <p>We strive to provide a space where guests can connect with themselves and explore their full
                         potential, offering a safe place.</p>
-                    <button class="btn-primary">Get Started →</button>
+                    <button class="btn-primary">Get Started <i class="fa-solid fa-right-long right-icon"></i></button>
                 </div>
 
                 <div class="right">
@@ -199,7 +203,8 @@
                         </div>
                     </div>
 
-                    <button class="btn-primary">Get Special Promo →</button>
+                    <button class="btn-primary">Get Special Promo <i class="fa-solid fa-right-long right-icon"></i></button>
+
                 </div>
 
                 <!-- Right Image -->
@@ -232,7 +237,7 @@
 
                     <!-- Card 2 | image right -->
                     <div class="food-card reverse">
-                        
+
                         <div class="food-right">
                             <h2>Good For Your Skin</h2>
                             <p>We offer the following services</p>
@@ -439,25 +444,8 @@
         </div>
     </footer>
 
-    <!-- JavaScript for toggle -->
-    <script>
-        const hamburger = document.getElementById('hamburger');
-        const navMobile = document.getElementById('navMobile');
-        const closeBtn = document.getElementById('closeBtn');
-
-        hamburger.addEventListener('click', () => {
-            navMobile.classList.add('show');
-        });
-
-        closeBtn.addEventListener('click', () => {
-            navMobile.classList.remove('show');
-        });
-
-        // Optional: close by clicking outside menu
-        window.addEventListener('click', (e) => {
-            if (e.target === navMobile) navMobile.classList.remove('show');
-        });
-    </script>
+    <!-- Linked fontawesome -->
+    <script src="https://kit.fontawesome.com/c9d836ec48.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
